@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java.lang.reflect.Type;
 import java.util.List;
-@Service
+
 @Repository
 public class EmployeeDaoImpl implements EmployeeDao{
 
