@@ -1,0 +1,21 @@
+Spring core rest api 
+database operations basic crud methods
+
+// findAll();
+// findById();
+// save();
+// deleteById();
+
+Packages 
+
+// controller -- for sendinf requests via http methods (GET - POST - UPDATE - DELETE)
+// dao -- interaction with database  , regulating the queries
+// service -- interaction with dao , the mid layer between controller and dao 
+
+Some spring annotations 
+
+ //@Autowired -- Dependency Injection 
+ //@RestController -- to implfy the controller class 
+ //@Service -- to implfy the service class
+ //@Transactional -- to indicate that making changings of database and located in the service layer
+ 
